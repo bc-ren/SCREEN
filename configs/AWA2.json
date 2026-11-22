@@ -1,0 +1,50 @@
+{
+  "shared": {
+    "visual_dim": 768,
+    "patch_tokens": 576,
+    "semantic_dim": 85,
+    "query_rank": 32,
+    "gate_bounds": [
+      0.2,
+      0.8
+    ],
+    "matching_factors": 4,
+    "matching_dim": 64,
+    "matching_rank": 32,
+    "matching_entropy": 0.1,
+    "matching_weight": 0.2,
+    "refinement_dim": 64,
+    "refinement_rank": 32,
+    "ridge_alpha": 0.001,
+    "candidate_budget": 16,
+    "epochs": 15,
+    "lr_min_ratio": 0.01,
+    "weight_decay": 7e-05,
+    "base_lr": 0.0003,
+    "refinement_lr": 0.0002,
+    "refinement_seed_offset": 20000,
+    "base_ce_temperature": 0.1,
+    "base_batch": 64,
+    "residual_bound": 0.5,
+    "pool_temperature": 0.05,
+    "refinement_ce_temperature": 100.0,
+    "geometry_weight": 0.3,
+    "refinement_batch": 64
+  },
+  "Best-H": {
+    "seed": 6832,
+    "query_temperature": 0.1,
+    "anchor_weight": 0.3,
+    "base_ema": 0.99,
+    "edge_temperature": 0.05,
+    "refinement_ema": 0.99,
+    "blend": 1.0,
+    "reference_temperature": 0.001,
+    "references_per_class": 8,
+    "reference_weight": 0.5,
+    "gamma": 0.12
+  },
+  "Best-CZSL": {
+    "same_as": "Best-H"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "shared": {
+    "visual_dim": 768,
+    "patch_tokens": 576,
+    "semantic_dim": 102,
+    "query_rank": 32,
+    "gate_bounds": [
+      0.2,
+      0.8
+    ],
+    "matching_factors": 4,
+    "matching_dim": 64,
+    "matching_rank": 32,
+    "matching_entropy": 0.1,
+    "matching_weight": 0.2,
+    "refinement_dim": 64,
+    "refinement_rank": 32,
+    "ridge_alpha": 0.001,
+    "candidate_budget": 16,
+    "epochs": 15,
+    "lr_min_ratio": 0.01,
+    "weight_decay": 7e-05,
+    "base_lr": 0.0003,
+    "refinement_lr": 0.0003,
+    "refinement_seed_offset": 20000,
+    "base_ce_temperature": 0.05,
+    "residual_bound": 0.2,
+    "pool_temperature": 0.1,
+    "refinement_ce_temperature": 0.1,
+    "geometry_weight": 0.04,
+    "refinement_batch": 32
+  },
+  "Best-H": {
+    "seed": 6833,
+    "query_temperature": 0.1,
+    "anchor_weight": 0.01,
+    "base_batch": 64,
+    "base_ema": 0.9,
+    "edge_temperature": 0.1,
+    "refinement_ema": 0.99,
+    "blend": 1.0,
+    "reference_temperature": 0.1,
+    "references_per_class": 8,
+    "reference_weight": 0.5,
+    "gamma": 0.09
+  },
+  "Best-CZSL": {
+    "seed": 6831,
+    "query_temperature": 0.07,
+    "anchor_weight": 0.1,
+    "base_batch": 128,
+    "base_ema": 0.9,
+    "edge_temperature": 0.05,
+    "refinement_ema": 0.9,
+    "blend": 1.0,
+    "reference_temperature": 0.1,
+    "references_per_class": 2,
+    "reference_weight": 1.0,
+    "gamma": 0.07
+  }
+}

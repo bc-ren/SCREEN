@@ -1,0 +1,7 @@
+numpy
+scipy
+torch>=2.4
+torchvision
+Pillow
+transformers>=4.48,<6
+huggingface_hub>=0.34
