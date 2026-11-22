@@ -14,7 +14,6 @@ Mean per-class top-1 accuracy (%).
 | [CUB](configs/CUB.json) | 93.5 | 89.6 | 86.0 | 87.8 |
 | [SUN](configs/SUN.json) | 80.2 | 66.7 | 57.6 | 61.9 |
 
-Each file contains the training and scoring hyperparameters for both profiles. To print a complete configuration, run `python -m screen config CUB Best-H` or `python -m screen config CUB Best-CZSL`.
 
 ## Data
 
