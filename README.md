@@ -6,7 +6,7 @@ SCREEN scores each image against class descriptors, then subtracts a candidate-s
 
 ## Benchmark results
 
-Mean per-class top-1 accuracy (%). Best-H supplies the generalized zero-shot results (U, S and H). Best-CZSL supplies conventional zero-shot accuracy. The seen-class offsets were fitted on held-out splits of the seen training data.
+Mean per-class top-1 accuracy (%).
 
 | Dataset and configurations | CZSL | U | S | H |
 |---|---:|---:|---:|---:|
