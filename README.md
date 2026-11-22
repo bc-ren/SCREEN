@@ -27,7 +27,6 @@ hf download google/vit-base-patch16-224-in21k config.json model.safetensors \
 
 Place each dataset's images under `images/DATASET/`, preserving their class directories. Put `att_splits.mat` and `res101.mat` in `splits/DATASET/`. SCREEN reads image paths and labels from the latter. CUB also needs the 1,024-dimensional sentence descriptors in `sent_splits.mat`. [Benchmark splits](https://datasets.d2.mpi-inf.mpg.de/xian/xlsa17.zip) · [CUB descriptors](https://github.com/Hanzy1996/CE-GZSL/blob/7bf5358ac4727ea1dc2dc9dec2f453b014500bd8/data/CUB/sent_splits.mat)
 
-The training cohorts contain 23,467 AWA2 images, 7,055 CUB images and 10,290 SUN images. The split file lists the omitted training rows in MATLAB's one-based indexing. Evaluation uses every official test row. [Split definitions](configs/splits.json)
 
 ## Train and evaluate
 
